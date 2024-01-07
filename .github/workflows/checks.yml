@@ -24,7 +24,7 @@ jobs:
                 python-version: "3.9"
             - name: Install dependencies
               run: |
-                pip install -r requirements/local.txt
+                pip install -r requirements.dev.txt
             - name: pre-commit testing
               run: pre-commit run --all-files
             - name: Test

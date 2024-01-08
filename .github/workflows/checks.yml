@@ -4,7 +4,7 @@ name: Checks
 on:
   push:
     branches:
-      - main
+      - feature/precommit_setup
 
 jobs:
     test-lint:
